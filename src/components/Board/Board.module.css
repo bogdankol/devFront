@@ -1,0 +1,17 @@
+.board {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+    height: 100vh;
+    background-color: hotpink;
+    padding: 15px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.row {
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    right: -80px;
+}

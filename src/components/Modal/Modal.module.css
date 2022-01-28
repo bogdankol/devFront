@@ -1,0 +1,50 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 20;
+}
+.modal {
+    width: 500px;
+    height: 75%;
+    padding: 0px 25px;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 700px;
+    padding: 0;
+    overflow-y: auto;
+}
+.listItem {
+    margin: 5px 10px;
+    border: 2px solid pink;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+.listItem h4 {
+    text-align: center;
+}
+.listItemImage {
+    width: 100px;
+    height: 100px;
+}
+.modal p {
+    text-align: left;
+}
